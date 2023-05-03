@@ -1,0 +1,16 @@
+aside .sidebar{
+    /* background: white; */
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    position: relative;
+    top: 3rem;
+  
+}
+.drop{
+    position: absolute;
+    width: 10rem;
+    height:30rem;
+    margin-right: 2rem;
+    box-shadow: var(--box-shaddow);
+}

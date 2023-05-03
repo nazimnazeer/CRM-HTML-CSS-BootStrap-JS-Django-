@@ -1,0 +1,93 @@
+.container-fluid{
+    display: grid;
+    width: 98% !important;
+    /* margin-top: .5rem; */
+   
+    /* gap: 1.8rem; */
+    grid-template-columns: 14rem auto;
+    overflow-x: none;
+}
+nav a{
+    font-weight: bold;
+}
+.navbar{
+   
+   display: flex !important;
+   width: 100%;
+   justify-content: space-between !important;
+  
+}
+aside .sidebar{
+    /* background: white; */
+    display: flex;
+    flex-direction: column;
+   
+    position: relative;
+    top: 3rem;
+ 
+  padding: 0;
+  gap: 0;
+}
+aside .sidebar a{
+  
+   margin: 0;
+}
+
+.drop{
+    position: absolute;
+    width: 15rem;
+    height:max-content;
+    margin-right: 2rem;
+    box-shadow: var(--box-shaddow);
+}
+/* ================================================table section start==================== */
+/* .recent-orders{
+    margin-top: .2rem;
+
+} */
+.card{
+    background: transparent;
+    border: none;
+}
+.card:last-child{
+    border-bottom: 5px solid var(--color-light);
+}
+
+.recent-orders table{
+    background: var(--color-white);
+    width: 100%;
+    height: 80vh;
+    border-radius: var(--card-border-radius);
+    padding: 2rem !important;
+    text-align: center;
+    box-shadow: var(--box-shaddow);
+    transition: all 300ms ease;
+ 
+
+}
+.recent-orders table tr{
+    padding: 18px;
+ 
+}
+.recent-orders table:hover{
+    box-shadow: none;
+}
+table tbody td{
+    height: 2.8rem;
+    width: 3rem;
+    border-bottom: 1px solid var(--color-light);
+    color: var(--color-dark-varient-);
+   
+}
+table tbody tr:last-child td {
+    border: none;
+}
+a{
+     text-align: center;
+     display: block;
+     margin: 1rem auto;
+     color: var(--color-priamary);
+}
+
+
+/* ================================================table section end==================== */
