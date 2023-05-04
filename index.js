@@ -7,7 +7,19 @@ theme.addEventListener('click', ()=>{
     // theme1.querySelector('span:nth-child(2)').classList.toggle('active');
 })
 
-// ====================login popup start===================
-
+// ====================Student info popup start===================
+const view= document.querySelector('.stbtn')
+const close1= document.querySelector('.last')
+const previewsection=document.querySelector('.info-form')
+view.addEventListener('click', ()=>{
+  previewsection.style.display='flex'
+})
+close1.addEventListener('click', ()=>{
+  previewsection.style.display='none'
+  console.log("clicked")
+})
 // ====================login popup end===================
 
+const scrollSpy = new info-form.ScrollSpy(document.body, {
+    target: 'form'
+  })

@@ -1,0 +1,68 @@
+
+:root{
+    --color-priamary:#7380ec;
+    --color-black:#000;
+    --color-danger:#ff7782;
+    --color-success:#41f1b6;
+    --color-warning:#ffbb55;
+    --color-white:#fff;
+    --color-info-dark:#7d8da1;
+    --color--info-light: #dce1eb;
+    --color-dark:#363949;
+    --color-light:rgba(132, 139, 200, 0.18);
+    --color-priamary-varient:#111e88;
+    --color-dark-varient-:#677483;
+    --color-background:#f6f6f9;
+
+
+    --card-border-radius:2rem;
+    --border-radius-1:0.4rem;
+    --border-radius-2:0.8rem;
+    --border-radius-3:1.2rem;
+
+
+    --card-padding:1.8rem;
+    --padding-1:1.2rem;
+
+
+    --box-shaddow: 0 2rem 3rem var(--color-light);
+
+}
+/* .scroll1{
+    position: fixed;
+    height: 100vh;
+    overflow: hidden;
+    
+} */
+/* .scroll-bar{
+    height: 100%;
+    overflow: scroll;
+} */
+.info-form{
+    position: absolute;
+    width: 65%;
+  
+    height:80%;
+    overflow: hidden;
+    top: 0%;
+    transform: translateX(30%);
+    background: var(--color-white);
+    box-shadow: 0 5rem 8rem var(--color-light) ;
+    z-index: 10;
+    margin-top:5rem;
+    margin-bottom:5rem;
+    border-radius: var(--card-border-radius);
+    display: none;
+}
+.info-form form{
+    padding: var(--card-padding);
+
+}
+.info-form .last{
+    position: absolute;
+  
+    top: 1rem;
+    right: 1rem;
+ cursor: pointer;
+
+}

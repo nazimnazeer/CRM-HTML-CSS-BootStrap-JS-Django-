@@ -88,6 +88,12 @@ a{
      margin: 1rem auto;
      color: var(--color-priamary);
 }
+section .top{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    float: right;
+}
 
 
 /* ================================================table section end==================== */
