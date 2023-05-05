@@ -1,0 +1,19 @@
+table{
+ width: 100%;
+ background: transparent;
+ 
+ 
+}
+table th{
+ gap: 1rem;
+
+}
+.container-fluid{
+    display: grid;
+    width: 98% !important;
+    
+    /* margin: 0 auto; */
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 15rem;
+    /* overflow-x: none; */
+}
