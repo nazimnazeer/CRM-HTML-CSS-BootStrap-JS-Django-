@@ -38,35 +38,31 @@
     height: 100%;
     overflow: scroll;
 } */
-.info-form1{
-    margin-top: 2rem;
-    height: 70vh;
+.info-form{
+    position: absolute;
+    width: 65%;
+  
+    height:80%;
+    overflow: hidden;
+    top: 0%;
+    transform: translateX(30%);
     background: var(--color-white);
     box-shadow: 0 5rem 8rem var(--color-light) ;
+    z-index: 10;
+    margin-top:5rem;
+    margin-bottom:5rem;
     border-radius: var(--card-border-radius);
-    overflow-y: auto;
-    overflow-x: hidden;
+    display: none;
 }
-.info-form1 form{
+.info-form form{
     padding: var(--card-padding);
-}
-.container-fluid{
-    display: grid;
-    width: 98% !important;
-    height: 100vh;
-    overflow: hidden;
-    /* margin: 0 auto; */
-    gap: 1.8rem;
-    grid-template-columns: 14rem auto 23rem;
-    /* overflow-x: none; */
-}
-.sidebar a{
-    display: flex;
 
 }
-.sidebar span{
-    display: flex;
- align-items: center;
- gap: 1rem;
- color: var(--color-dark-varient-);
+.info-form .last{
+    position: absolute;
+  
+    top: 1rem;
+    right: 1rem;
+ cursor: pointer;
+
 }

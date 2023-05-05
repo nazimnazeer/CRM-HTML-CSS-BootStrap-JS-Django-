@@ -45,6 +45,22 @@ aside .sidebar a{
     margin-top: .2rem;
 
 } */
+h1{
+    margin-top:1.4rem ;
+}
+.date{
+    display: inline-block;
+    background: var(--color-light);
+    border-radius: var(--border-radius-1);
+    margin-top: 1rem;
+    padding: 0.5rem 1.6rem;
+}
+.date input[type="date"] {
+    background: transparent;
+    color: var(--color-dark);
+    outline: none;
+    border: none;
+}
 .card{
     background: transparent;
     border: none;
@@ -93,7 +109,32 @@ section .top{
     text-align: center;
     align-items: center;
     float: right;
+    margin-top:1.4rem ;
 }
+.theme-toggler{
+    background: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.6rem;
+    width: 4.2rem;
+    cursor: pointer;
+    border-radius: var(--border-radius-1);
+}
+.theme-toggler span {
+    font-size: 1.2rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.theme-toggler span.active{
+    background: var(--color-priamary);
+    color: white;
+    border-radius: var(--border-radius-1);
+}
+
 
 
 /* ================================================table section end==================== */
