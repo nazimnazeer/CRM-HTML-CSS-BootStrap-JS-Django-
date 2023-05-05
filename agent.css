@@ -32,6 +32,12 @@ aside .sidebar a{
   
    margin: 0;
 }
+.sidebar span{
+    display: flex;
+ align-items: center;
+ gap: 1rem;
+ color: var(--color-dark-varient-);
+}
 
 .drop{
     position: absolute;

@@ -38,6 +38,16 @@
     height: 100%;
     overflow: scroll;
 } */
+.sidebar span{
+    display: flex;
+ align-items: center;
+ gap: 1rem;
+ color: var(--color-dark-varient-);
+}
+.card{
+    background: transparent;
+    border: none;
+}
 .info-form{
     position: absolute;
     width: 65%;

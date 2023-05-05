@@ -70,3 +70,7 @@
  gap: 1rem;
  color: var(--color-dark-varient-);
 }
+.card{
+    background: transparent;
+    border: none;
+}

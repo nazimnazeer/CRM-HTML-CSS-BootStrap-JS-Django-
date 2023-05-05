@@ -8,3 +8,24 @@
     /* overflow-x: none; */
     margin-bottom: 2rem;
 }
+.sidebar span{
+    display: flex;
+ align-items: center;
+ gap: 1rem;
+ color: var(--color-dark-varient-);
+}
+th .dropdown{
+    
+    font-weight: bold;
+}
+th .dropdown .btn{
+    width: 100%;
+    padding-right: 5px;
+    margin-left: 0%;
+    border: none;
+}
+th .dropdown .dropdown-menu{
+    width: 1.5rem;
+    height: max-content;
+    font-weight: bold;
+}
