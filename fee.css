@@ -1,0 +1,22 @@
+.info-form1{
+    margin-top: 2rem;
+    height: 70vh;
+    background: var(--color-white);
+    box-shadow: 0 5rem 8rem var(--color-light) ;
+    border-radius: var(--card-border-radius);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.info-form1 form{
+    padding: var(--card-padding);
+}
+.container-fluid{
+    display: grid;
+    width: 98% !important;
+    height: 100vh;
+    overflow: hidden;
+    /* margin: 0 auto; */
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 23rem;
+    /* overflow-x: none; */
+}
