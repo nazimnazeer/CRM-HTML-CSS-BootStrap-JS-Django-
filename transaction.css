@@ -1,0 +1,12 @@
+.container-fluid{
+    display: grid;
+    width: 98% !important;
+    
+    /* margin: 0 auto; */
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 25rem;
+    /* overflow-x: none; */
+}
+.insights > div{
+        cursor: pointer;
+}
