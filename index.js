@@ -23,3 +23,6 @@ close1.addEventListener('click', ()=>{
 const scrollSpy = new info-form.ScrollSpy(document.body, {
     target: 'form'
   })
+
+  // ====================transation section js ============
+ 

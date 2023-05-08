@@ -1,11 +1,11 @@
 .info-form1{
     margin-top: 2rem;
-    height: 70vh;
+    height: 100%;
     background: var(--color-white);
     box-shadow: 0 5rem 8rem var(--color-light) ;
     border-radius: var(--card-border-radius);
-    overflow-y: auto;
-    overflow-x: hidden;
+    margin-top: 8rem;
+   
 }
 .info-form1 form{
     padding: var(--card-padding);
@@ -13,10 +13,31 @@
 .container-fluid{
     display: grid;
     width: 98% !important;
-    height: 100vh;
-    overflow: hidden;
+    height: 100%;
+    
     /* margin: 0 auto; */
     gap: 1.8rem;
     grid-template-columns: 14rem auto 23rem;
     /* overflow-x: none; */
+}
+aside{
+    position: fixed;
+    top: var(--sticky-top-left);
+   
+}
+main{
+    margin-left: 15rem;
+    z-index: 2;
+    width: 52rem;
+   
+}
+.right{
+   margin-right:4rem ;
+   width:23rem ;
+   position: fixed;
+   margin-left: 70rem;
+}
+main .top{
+    position: fixed;
+    
 }

@@ -10,3 +10,21 @@
 .insights > div{
         cursor: pointer;
 }
+.Total-card{
+    position: absolute;
+    top: 20%;
+    background: var(--color-white);
+    width: 52rem;
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    display: none;
+}
+.Total-card .recent-orders table{
+    background:transparent;
+    box-shadow: none;
+}
+.Total-card .fast{
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+}

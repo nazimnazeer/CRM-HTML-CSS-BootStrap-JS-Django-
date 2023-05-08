@@ -8,6 +8,10 @@
     /* overflow-x: none; */
     margin-bottom: 2rem;
 }
+.navbar{
+    background: var(--color-white) !important;
+    /* border-radius: var(--card-border-radius); */
+}
 .sidebar span{
     display: flex;
  align-items: center;

@@ -38,6 +38,9 @@
     height: 100%;
     overflow: scroll;
 } */
+.info-form input{
+    background:var(--color-white);
+}
 .sidebar span{
     display: flex;
  align-items: center;
