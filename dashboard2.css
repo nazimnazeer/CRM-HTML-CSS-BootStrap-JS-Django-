@@ -78,4 +78,8 @@
     right: 1rem;
  cursor: pointer;
 
+ 
+}
+.form-select{
+    background: var(--color-white);
 }

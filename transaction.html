@@ -275,6 +275,153 @@
           
            </div>
      </section>
+       <section class="submitted-card">
+        <div class="second">
+            <span class="material-symbols-sharp">close</span>
+        </div>
+        <div class="recent-orders">
+            
+            <h2>Total No of Admissions = <span>24</span></h2>
+            <h2>Total Amount = <span>150,0000pkr</span></h2>
+            <table>
+                <tr>
+                    <th>Total Student</th>
+                   
+                    <th>Course Duration</th>
+                    <th>Course Fee</th>
+                    <th>Total Amount</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>24</td>
+                   
+                    <td class="warning">6 month</td>
+
+                 <td>30,000</td>
+                 <td>720,000</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                   
+                    <td class="warning">6 month</td>
+
+                 <td>30,000</td>
+                 <td>720,000</td>
+                    
+                </tr>
+                <tr>
+                   
+                    <td>24</td>
+                   
+                    <td class="warning">6 month</td>
+
+                 <td>30,000</td>
+                 <td>720,000</td>
+                    
+                </tr>
+              
+                <tr>
+                    <td>24</td>
+                   
+                    <td class="warning">6 month</td>
+
+                 <td>30,000</td>
+                 <td>720,000</td>
+                    
+                </tr>
+                <tr>
+                    <td>24</td>
+                   
+                    <td class="warning">6 month</td>
+
+                 <td>30,000</td>
+                 <td>720,000</td>
+                </tr>
+                
+                
+               
+               
+            </tbody>
+            </table>
+          
+           </div>
+     </section>
+       <section class="pending-card">
+        <div class="third">
+            <span class="material-symbols-sharp">close</span>
+        </div>
+        <div class="recent-orders">
+            
+            <h2>Total No of Admissions = <span>24</span></h2>
+            <h2>Total Amount = <span>120,0000pkr</span></h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Total Student</th>
+                       
+                        <th>Course Duration</th>
+                        <th>Course Fee</th>
+                        <th>pending Amount</th>
+                       
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>24</td>
+                       
+                        <td class="warning">6 month</td>
+
+                     <td>30,000</td>
+                     <td>720,000</td>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                       
+                        <td class="warning">6 month</td>
+
+                     <td>30,000</td>
+                     <td>720,000</td>
+                        
+                    </tr>
+                    <tr>
+                       
+                        <td>24</td>
+                       
+                        <td class="warning">6 month</td>
+
+                     <td>30,000</td>
+                     <td>720,000</td>
+                        
+                    </tr>
+                  
+                    <tr>
+                        <td>24</td>
+                       
+                        <td class="warning">6 month</td>
+
+                     <td>30,000</td>
+                     <td>720,000</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                       
+                        <td class="warning">6 month</td>
+
+                     <td>30,000</td>
+                     <td>720,000</td>
+                    </tr>
+                    
+                    
+                   
+                   
+                </tbody>
+            </table>
+          
+           </div>
+     </section>
       
        <!-- ==================end of insights2================== -->
      </main>
@@ -572,6 +719,28 @@
             })
             close2.addEventListener('click', ()=>{
                 total_amount.style.display='none'
+              console.log("clicked")
+            })
+            const total_amount2= document.querySelector('.submitted-card')
+            const close3= document.querySelector('.second')
+            const total_amount_card2= document.querySelector('.expenses')
+            total_amount_card2.addEventListener('click', ()=>{
+              total_amount2.style.display='block'
+              console.log("clicked")
+            })
+            close3.addEventListener('click', ()=>{
+                total_amount2.style.display='none'
+              console.log("clicked")
+            })
+            const total_amount3= document.querySelector('.pending-card')
+            const close4= document.querySelector('.third')
+            const total_amount_card3= document.querySelector('.income')
+            total_amount_card3.addEventListener('click', ()=>{
+              total_amount3.style.display='block'
+              console.log("clicked")
+            })
+            close4.addEventListener('click', ()=>{
+                total_amount3.style.display='none'
               console.log("clicked")
             })
         </script>

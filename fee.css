@@ -4,7 +4,7 @@
     background: var(--color-white);
     box-shadow: 0 5rem 8rem var(--color-light) ;
     border-radius: var(--card-border-radius);
-    margin-top: 8rem;
+    margin-top: 3rem;
    
 }
 .info-form1 form{
@@ -20,10 +20,17 @@
     grid-template-columns: 14rem auto 23rem;
     /* overflow-x: none; */
 }
+.form-select{
+    background: var(--color-white);
+}
 aside{
     position: fixed;
-    top: var(--sticky-top-left);
+    /* top: var(--sticky-top-left); */
+    margin-top: 0%;
    
+}
+aside .top{
+    margin-top: 0%;
 }
 main{
     margin-left: 15rem;
@@ -37,7 +44,7 @@ main{
    position: fixed;
    margin-left: 70rem;
 }
-main .top{
+/* main .top{
     position: fixed;
     
-}
+} */

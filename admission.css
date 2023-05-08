@@ -48,7 +48,7 @@
     background: var(--color-white);
     box-shadow: 0 5rem 8rem var(--color-light) ;
     border-radius: var(--card-border-radius);
-    margin-top: 8rem;
+    margin-top: 3rem;
     
 }
 .info-form1 form{
@@ -88,6 +88,9 @@ aside{
     position: fixed;
     top: var(--sticky-top-left);
    
+}
+aside .top{
+    margin-top: 0%;
 }
 main{
     margin-left: 15rem;
