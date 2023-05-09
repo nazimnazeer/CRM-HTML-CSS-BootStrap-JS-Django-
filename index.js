@@ -20,27 +20,7 @@ close1.addEventListener('click', ()=>{
 })
 // ====================login popup end===================
 
-const scrollSpy = new info-form.ScrollSpy(document.body, {
-    target: 'form'
-  })
+
 
   // ====================transation section js ============
-  const  orders = [ {
-                   Name:"Web Development",
-                   Number:"01", 
-                   payment:"submitted",
-                   status:"pending",
-                   details:"complete"
-                  }];
-  orders.forEach(order => {
-      const tr=document.createElement('tr');
-      const trcontent= `
-      <td>${order.Name}</td>
-      <td>${order.Number}</td>
-      <td>${order.payment}</td>
-      <td>${order.status}</td>
-      <td>${order.details}</td>
-     `
-      tr.innerHTML = trcontent;
-      document.querySelector('table tbody').appendChild(tr);
-  })
+ 

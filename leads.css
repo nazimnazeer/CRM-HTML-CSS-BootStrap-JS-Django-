@@ -10,7 +10,7 @@
 }
 .navbar{
     background: var(--color-white) !important;
-    /* border-radius: var(--card-border-radius); */
+    border-radius: var(--card-border-radius);
 }
 .sidebar span{
     display: flex;
@@ -32,4 +32,25 @@ th .dropdown .dropdown-menu{
     width: 1.5rem;
     height: max-content;
     font-weight: bold;
+}
+.contact_create{
+    position: absolute;
+    top: 5rem;
+    left: 15rem;
+    background:var(--color-white);
+    width: 60rem;
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    height: 70vh;
+    overflow-y: auto;
+    display: none;
+}
+.contact_create .x-icon{
+    position: absolute;
+  
+    top: 1rem;
+    right: 3rem;
+ cursor: pointer;
+
+ 
 }
