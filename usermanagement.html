@@ -74,88 +74,7 @@
       <div class="date">
         <input type="date">
       </div>
-      <div class="insights">
-        <div class="sales">
-            <span class="material-symbols-sharp">analytics</span>
-            <div class="middle">
-                <div class="left">
-                    <h3>Total sales</h3>
-                    <h1>$456</h1>
-                </div>
-                <div class="progress">
-                    <svg>
-                        <circle cx="30" cy="30" r="25"></circle>
-                    </svg>
-                    <div class="number">
-                       <p>98%</p>
-                    </div>
-                </div>
-            </div>
-            <small class="text-muted">
-                Last 24 hours
-            </small>
-        </div>
-        <div class="expenses">
-            <span class="material-symbols-sharp">bar_chart</span>
-            <div class="middle">
-                <div class="left">
-                    <h3>Total expenses</h3>
-                    <h1>$456</h1>
-                </div>
-                <div class="progress">
-                    <svg>
-                        <circle cx="30" cy="30" r="25"></circle>
-                    </svg>
-                    <div class="number">
-                       <p>98%</p>
-                    </div>
-                </div>
-            </div>
-            <small class="text-muted">
-                Last 24 hours
-            </small>
-        </div>
-        <div class="income">
-            <span class="material-symbols-sharp">stacked_line_chart</span>
-            <div class="middle">
-                <div class="left">
-                    <h3>Total income</h3>
-                    <h1>$456</h1>
-                </div>
-                <div class="progress">
-                    <svg>
-                        <circle cx="30" cy="30" r="25"></circle>
-                    </svg>
-                    <div class="number">
-                       <p>98%</p>
-                    </div>
-                </div>
-            </div>
-            <small class="text-muted">
-                Last 24 hours
-            </small>
-        </div>
-       </div>
-       <!-- ==================end of insights================== -->
-       <div class="recent-orders">
-        <h2>Recent Orders</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>pruduct Number</th>
-                    <th>pruduct Name</th>
-                    
-                    <th>payment</th>
-                    <th>status</th>
-                    <th>pruduct Name</th>
-                </tr>
-            </thead>
-            <tbody>
-             
-            </tbody>
-        </table>
-        <a href="">View All</a>
-       </div>
+      
 
      </main>
      <!-- =====end of main======== -->
@@ -366,60 +285,7 @@
 
 
 
-    <script>
-        const  orders = [ {
-            Number:"01", 
-            Name:"Web Development",
-            
-            payment:"submitted",
-            status:"pending",
-            details:"complete"
-           },
-           {
-            Number:"02", 
-            Name:"Web Development",
-            
-            payment:"submitted",
-            status:"success",
-            details:"complete"
-           },{
-            Number:"03", 
-            Name:"Marketing",
-            
-            payment:"submitted",
-            status:"pending",
-            details:"Due"
-           },
-           {
-            Number:"04", 
-            Name:"Web Development",
-            
-            payment:"submitted",
-            status:"pending",
-            details:"complete"
-           },
-           {
-            Number:"05", 
-            Name:"Web Development",
-            
-            payment:"submitted",
-            status:"pending",
-            details:"complete"
-           }];
-orders.forEach(order => {
-const tr=document.createElement('tr');
-const trcontent= `
-<td>${order.Number}</td>
-<td>${order.Name}</td>
 
-<td>${order.payment}</td>
-<td>${order.status}</td>
-<td>${order.details}</td>
-`
-tr.innerHTML = trcontent;
-document.querySelector('table tbody').appendChild(tr);
-})
-    </script>
      
     <script src="index.js"></script>
    
