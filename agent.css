@@ -19,34 +19,41 @@ nav a{
    border-radius: var(--card-border-radius);
   
 }
+.dropdown-menu .top h2{
+    margin-left: 2rem;
+}
 aside .sidebar{
     /* background: white; */
     display: flex;
     flex-direction: column;
    
-    position: relative;
-    top: 3rem;
- 
-  padding: 0;
-  gap: 0;
+    /* position: relative; */
+    top: 5rem;
+   height: max-content;
+    padding: 0;
+     gap: 0;
+
 }
 aside .sidebar a{
-  
-   margin: 0;
+    margin: 2px;
+    line-height: 0%;
+    margin-left: 1rem;
 }
+
 .sidebar span{
     display: flex;
- align-items: center;
- gap: 1rem;
- color: var(--color-dark-varient-);
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-dark-varient-);
 }
 
 .drop{
     position: absolute;
-    width: 15rem;
+    width: 20rem;
     height:max-content;
     margin-right: 2rem;
     box-shadow: var(--box-shaddow);
+
 }
 /* ================================================table section start==================== */
 /* .recent-orders{

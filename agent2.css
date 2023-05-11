@@ -2,7 +2,7 @@ aside .sidebar{
     /* background: white; */
     display: flex;
     flex-direction: column;
-    height: 86vh;
+    height: auto;
     position: relative;
     top: 3rem;
   
