@@ -116,3 +116,6 @@ main{
     
     height: 70vh;
 }
+.dropdown .dropdown-menu{
+    background: var(--color-white);
+}
