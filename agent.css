@@ -38,6 +38,10 @@ aside .sidebar a{
     margin: 2px;
     line-height: 0%;
     margin-left: 1rem;
+    
+}
+.dropdown .dropdown-menu{
+    background: var(--color-white);
 }
 
 .sidebar span{

@@ -104,3 +104,15 @@ main{
    position: fixed;
    margin-left: 70rem;
 }
+/* aside .sidebar a{
+    margin: 0;
+    line-height: 0%;
+    margin-left: 1rem;
+    
+} */
+.dropdown .dropdown-menu{
+    margin-top: 0%;
+    /* padding: 2rem; */
+    
+    height: 70vh;
+}
