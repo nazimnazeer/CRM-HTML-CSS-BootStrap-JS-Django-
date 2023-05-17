@@ -14,3 +14,13 @@ aside .sidebar{
     margin-right: 2rem;
     box-shadow: var(--box-shaddow);
 }
+.topbar{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.topbar .tp{
+    display: flex;
+    align-items: center;
+}

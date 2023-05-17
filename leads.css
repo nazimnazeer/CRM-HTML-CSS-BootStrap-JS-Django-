@@ -54,3 +54,6 @@ th .dropdown .dropdown-menu{
 
  
 }
+.dropdown-menu{
+    height: max-content;
+}
